@@ -27,17 +27,11 @@ This ensures clarity and allows us to compare different problem-solving approach
 The repository is structured to keep challenges organized by category.
 ```
 ├── Python
-│   ├── Strings
-│   │   ├── ProblemName_Khawlah.py
-│   │   ├── ProblemName_Burcu.py
-│   ├── Arrays
-│   ├── Algorithms
-│   └── Data Structures
+│   ├── ProblemName_Khawlah.py
+│   ├── ProblemName_Burcu.py
 └── SQL
-    ├── Basic Queries
-    ├── Joins
-    ├── Aggregations
-    └── Advanced Queries
+    ├── ProblemName_Khawlah.sql
+    ├── ProblemName_Burcu.sql
 ```
 
 ## How We Work
