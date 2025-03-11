@@ -14,20 +14,21 @@ import sys
 #
 
 def diagonalDifference(arr):
-    # Write your code here
+    n = len(arr)
+    
+    primary_diagonal = 0
+    Secondary_diagonal = 0
+     
+    for i in range (n):
+        primary_diagonal += arr[i][i]
+        Secondary_diagonal += arr[i][n-1-i]
+    return abs(primary_diagonal-Secondary_diagonal)
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    n = int(input().strip())
+array = [
+    [11, 2, 4],
+    [10,40,60],
+    [22,55,66]
+]
 
-    arr = []
-
-    for _ in range(n):
-        arr.append(list(map(int, input().rstrip().split())))
-
-    result = diagonalDifference(arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+print(diagonalDifference(array))
