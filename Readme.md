@@ -46,6 +46,6 @@ To track our progress, we will maintain a **Solved Challenges Log** where we lis
 ## Contact
 If you're interested in following our journey or have any suggestions, feel free to check out our GitHub profiles:
 - **Burcu**: [Burcu's GitHub](https://github.com/bucuu)
-- **[Your Name]**: [Your GitHub](https://github.com/alshubati99)
+- **Khawlah**: [Your GitHub](https://github.com/alshubati99)
 
 Stay tuned for more challenges and solutions! Happy Coding! 🚀💻
